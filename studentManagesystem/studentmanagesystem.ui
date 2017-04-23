@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentManageSystem</class>
+ <widget class="QMainWindow" name="StudentManageSystem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StudentManageSystem</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>381</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>151</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 127);
+font: 75 oblique 18pt &quot;URW Gothic L&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Student management system</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>485</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuADD">
+    <property name="title">
+     <string>MannageSystem</string>
+    </property>
+    <addaction name="actionDEL"/>
+    <addaction name="actionChange"/>
+    <addaction name="actionSerch"/>
+    <addaction name="separator"/>
+    <addaction name="actionSerch_2"/>
+   </widget>
+   <addaction name="menuADD"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionDEL">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionChange">
+   <property name="text">
+    <string>DEL</string>
+   </property>
+  </action>
+  <action name="actionSerch">
+   <property name="text">
+    <string>Change</string>
+   </property>
+  </action>
+  <action name="actionSerch_2">
+   <property name="text">
+    <string>Serch</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

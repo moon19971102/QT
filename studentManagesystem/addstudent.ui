@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddStudent</class>
+ <widget class="QDialog" name="AddStudent">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add_student</string>
+  </property>
+  <widget class="QLabel" name="name">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>30</y>
+     <width>52</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>name    </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="id">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>70</y>
+     <width>48</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>id          </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="age">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>131</y>
+     <width>53</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>age        </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="subject">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>170</y>
+     <width>53</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>subject </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="interest">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>200</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>interest</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sex">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>103</y>
+     <width>23</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>sex</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>70</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>103</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>189</x>
+     <y>30</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>131</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>200</y>
+     <width>16</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name">
+   <property name="geometry">
+    <rect>
+     <x>198</x>
+     <y>26</y>
+     <width>161</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(85, 170, 0)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_id">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>70</y>
+     <width>161</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>eat</string>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">interest_button</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>200</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>drink</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">interest_button</string>
+   </attribute>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>170</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Chinese</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>English</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Maths</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>history</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>71</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>man</string>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">sexbutton</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>woman</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">sexbutton</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>200</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>play</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">interest_button</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>230</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>happy</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">interest_button</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>230</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>study</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">interest_button</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>230</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>listen</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">interest_button</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ok">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_cancel">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>260</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+  </widget>
+  <zorder>name</zorder>
+  <zorder>id</zorder>
+  <zorder>age</zorder>
+  <zorder>subject</zorder>
+  <zorder>interest</zorder>
+  <zorder>sex</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>lineEdit_name</zorder>
+  <zorder>lineEdit_id</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>checkBox</zorder>
+  <zorder>checkBox_2</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>radioButton</zorder>
+  <zorder>checkBox_3</zorder>
+  <zorder>checkBox_4</zorder>
+  <zorder>checkBox_5</zorder>
+  <zorder>checkBox_6</zorder>
+  <zorder>radioButton_2</zorder>
+  <zorder>pushButton_ok</zorder>
+  <zorder>pushButton_cancel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="sexbutton">
+   <property name="exclusive">
+    <bool>true</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="interest_button">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>
